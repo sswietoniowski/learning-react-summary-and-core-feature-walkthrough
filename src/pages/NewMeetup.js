@@ -5,6 +5,7 @@ function NewMeetupPage() {
   const navigate = useNavigate();
 
   function addMeetupHandler(meetupData) {
+    // TODO: how to handle configuration
     const apiUrl =
       "https://react-getting-started-1c270-default-rtdb.europe-west1.firebasedatabase.app/"; //process.env.REACT_APP_FIREBASE_DATABASE_URL;
 
